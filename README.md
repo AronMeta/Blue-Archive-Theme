@@ -1,2 +1,2 @@
 # Blue-Archive-Theme
-Windows Wallpaper
+Blue Archive Windows Wallpaper
