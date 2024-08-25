@@ -1,0 +1,52 @@
+; Blue Archive
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+normal.cur
+help.cur
+Waiting.ani
+loading.ani
+text.ani
+block.cur
+resizeNS.cur
+resizeWE.cur
+resizeDIAG1.cur
+resizeDIAG2.cur
+move.cur
+link.cur
+areaselect.cur
+pen.cur
+alternativeselect.cur
+[Strings]
+CUR_DIR       = "Cursors\Blue Archive"
+SCHEME_NAME   = "Blue Archive"
+pointer       = "Normal.cur"
+help          = "help.cur"
+work          = "Waiting.ani"
+busy          = "loading.ani"
+text          = "text.ani"
+unavailiable  = "block.cur"
+vert          = "resizeNS.cur"
+horz          = "resizeWE.cur"
+dgn1          = "resizeDIAG1.cur"
+dgn2          = "resizeDIAG2.cur"
+move          = "move.cur"
+link          = "link.cur"
+cross         = "areaselect.cur"
+hand          = "pen.cur"
+alternate     = "alternativeselect.cur"
