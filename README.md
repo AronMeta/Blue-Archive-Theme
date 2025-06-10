@@ -3,7 +3,7 @@
 
 
 ### Installation For Theme
-* First, click on the "Theme\BlueArchive"
+* First, click on the "[Theme\BlueArchive](https://github.com/AronMeta/Blue-Archive-Theme/tree/main/Theme/Blue%20Archive)"
 ![Set File Theme Blue Archive](https://github.com/AronMeta/Blue-Archive-Theme/blob/main/Sample%20Document/Set%20File%20Theme%20Blue%20Archive.png)
 * Then click on the topic name
 ![Set For Arona Classroom](https://github.com/AronMeta/Blue-Archive-Theme/blob/main/Sample%20Document/Set%20For%20Arona%20Classroom.png)
